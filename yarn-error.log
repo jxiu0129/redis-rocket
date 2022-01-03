@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/jxiu0129/.nvm/versions/node/v14.15.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add express body-parser redis method-override express-handlebar
+
+PATH: 
+  /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/anaconda3/bin:/Users/jxiu0129/.nvm/versions/node/v14.15.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/Cellar/fzf/0.23.0/bin:/Users/jxiu0129/Library/Android/sdk/platform-tools:/Users/jxiu0129/Library/Android/sdk/tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express-handlebar: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141721:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141643:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "redisUser",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
